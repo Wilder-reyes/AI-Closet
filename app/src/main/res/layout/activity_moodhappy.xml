@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Moodhappy">
+
+    <ImageView
+        android:id="@+id/happy"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:background="@drawable/ropa"
+        app:layout_constraintVertical_bias=".2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:foregroundGravity="center"/>
+
+    <TextView
+        android:id="@+id/action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Mood Happy"
+        android:textColor="@color/pink"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/happy" />
+
+    <TextView
+        android:id="@+id/review"
+        android:layout_width="279dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="Happy people prefer to wear clothes that fit them well, clothes that emphasize their figure.
+"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/action" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "83205649612",
+    "project_id": "femellx",
+    "storage_bucket": "femellx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83205649612:android:7b9130d10d669d921bbe69",
+        "android_client_info": {
+          "package_name": "com.example.snowman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83205649612-f2rm114421ohnqn4qi00n1r9pfoktga3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmfeYGiIgQJQbzA_RFGlnVI5YX9qmTxss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83205649612-f2rm114421ohnqn4qi00n1r9pfoktga3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
